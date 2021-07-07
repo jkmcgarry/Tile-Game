@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="14">
+ <tileset firstgid="1" source="../../../../../../../testtileset.tsx"/>
+ <layer id="1" name="Floor" width="8" height="8">
+  <data encoding="csv">
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3
+</data>
+ </layer>
+ <layer id="2" name="Walls" width="8" height="8">
+  <data encoding="csv">
+2,2,2,0,2,2,2,2,
+2,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,2,
+2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup id="4" name="Buttons">
+  <object id="11" name="Button" x="320" y="128" width="64" height="64"/>
+  <object id="9" name="door" x="192" y="0" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="3" name="Obstacles">
+  <object id="1" name="wall" x="0" y="0" width="176" height="64"/>
+  <object id="2" name="wall" x="272" y="0" width="240" height="64"/>
+  <object id="3" name="wall" x="0" y="448" width="512" height="64"/>
+  <object id="4" name="wall" x="0" y="64" width="64" height="384"/>
+  <object id="5" name="wall" x="448" y="64" width="64" height="384"/>
+  <object id="6" name="player" x="192" y="320" width="64" height="64"/>
+  <object id="13" name="Block" x="128" y="192" width="64" height="64"/>
+ </objectgroup>
+</map>
